@@ -1,0 +1,42 @@
+{
+  "elements": [
+    {
+      "id": "1",
+      "type": "input",
+      "data": { "label": "Player 1" },
+      "position": { "x": 250, "y": 5 }
+    },
+    {
+      "id": "dndnode_1000",
+      "type": "default",
+      "position": { "x": 225, "y": 168 },
+      "data": { "label": "Player 2" }
+    },
+    {
+      "id": "dndnode_1001",
+      "type": "default",
+      "position": { "x": 600, "y": 178 },
+      "data": { "label": "Player 3" }
+    },
+    {
+      "source": "1",
+      "sourceHandle": null,
+      "target": "dndnode_1000",
+      "targetHandle": null,
+      "id": "reactflow__edge-1null-dndnode_1000null",
+      "type": "default",
+      "label": "01/06/2021"
+    },
+    {
+      "source": "1",
+      "sourceHandle": null,
+      "target": "dndnode_1001",
+      "targetHandle": null,
+      "id": "reactflow__edge-1null-dndnode_1001null",
+      "type": "default",
+      "label": "01/06/2021"
+    }
+  ],
+  "position": [0, 0],
+  "zoom": 1
+}

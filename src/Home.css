@@ -1,0 +1,105 @@
+.dndflow {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.dndflow aside {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: #fcfcfc;
+}
+
+.dndflow aside .description {
+  margin-bottom: 10px;
+}
+
+.dndflow .dndnode {
+  height: 20px;
+  padding: 4px;
+  border: 1px solid #1a192b;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.dndflow .dndnode.input {
+  border-color: #0041d0;
+}
+
+.dndflow .dndnode.output {
+  border-color: #ff0072;
+}
+
+.dndflow .reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.react-flow__handle {
+  width: 210px;
+  height: 15px;
+}
+
+.react-flow__handle-bottom {
+  bottom: -25px;
+  border-radius: 0;
+}
+
+.react-flow__handle-top {
+  top: -35px;
+  border-radius: 0;
+}
+
+.react-flow__edge-text {
+  font-size: 13px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.react-flow__node-default {
+  width: 210px !important;
+  height: 140px !important;
+  padding: 0;
+  border-style: none;
+  border-width: 0;
+  box-shadow: none !important;
+}
+
+.MuiFormControlLabel-root {
+  margin-right: 10px;
+}
+
+.MuiDialog-paperWidthSm {
+  max-width: 100% !important;
+}
+
+.MuiDialog-paperScrollPaper {
+  max-height: 100% !important;
+}
+
+.dropDownHolder__control {
+  min-height: 56px !important;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.00938em;
+}
+
+@media screen and (min-width: 768px) {
+  .dndflow {
+    flex-direction: row;
+  }
+
+  .dndflow aside {
+    width: 20%;
+    max-width: 250px;
+  }
+}
